@@ -1,0 +1,14 @@
+[
+    {
+        "boardImg": "./boards/default/python_tooldelta/media/logo.ico",
+        "boardType": "ToolDelta",
+        "boardIndex": "./boards/default/python_tooldelta/index.xml",
+        "env": {
+            "electron": true,
+            "web": true,
+            "webCompiler": true,
+            "webSocket": true
+        },
+        "language": "Python"
+    }
+]

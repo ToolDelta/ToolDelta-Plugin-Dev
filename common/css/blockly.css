@@ -1,0 +1,142 @@
+.blocklyTreeRoot {
+    min-width: 155px;
+}
+
+.blocklyTreeIconOpen {
+    margin: 8px;
+}
+
+.blocklyTreeIconClosedLtr {
+    margin: 8px;
+}
+
+.blocklySvg {
+    border-top: none !important;
+}
+
+.blocklyToolboxDiv {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 0px;
+}
+
+html[data-bs-theme=dark] .blocklyMainBackground {
+    stroke: #000;
+}
+
+.blocklyTreeLabel {
+    font-size: 17px;
+} 
+
+.injectionDiv.classic-theme .blocklyTreeRow .blocklyTreeLabel {
+    color: #000 !important;
+}
+
+.injectionDiv.classic-theme .blocklyTreeRow.blocklyTreeSelected .blocklyTreeLabel {
+    color: #fff !important;
+}
+
+.injectionDiv.dark-theme .blocklyTreeRow .blocklyTreeLabel {
+    color: #fff !important;
+}
+
+.injectionDiv.dark-theme .blocklyTreeRow.blocklyTreeSelected .blocklyTreeLabel {
+    color: #000 !important;
+}
+
+#catSearch.blocklyTreeRow .blocklyTreeIcon {
+    background: url('../../common/media/mark/search.png') no-repeat;
+    background-size: 100% auto;
+}
+#catSearch.blocklyTreeRow.blocklyTreeSelected .blocklyTreeIcon {
+    background: url('../../common/media/mark/search2.png') no-repeat;
+    background-size: 100% auto;
+}
+
+.blocklyTreeRow > .blocklyTreeRowContentContainer {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    height: 36px;
+}
+
+.blocklyTreeRow .blocklyTreeIcon { 
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 8px;
+    background: url('../../common/media/mark/default.png') no-repeat;
+    background-size: 100% auto; 
+}
+
+.blocklyTreeRow.blocklyTreeSelected .blocklyTreeIcon { 
+    background: url('../../common/media/mark/default2.png') no-repeat;
+    background-size: 100% auto; 
+}
+
+.blocklyTreeRow .blocklyTreeIcon.blocklyTreeIconOpen,
+.blocklyTreeRow .blocklyTreeIcon.blocklyTreeIconClosed {
+    height: 16px;
+    vertical-align: middle;
+    width: 16px;
+    margin: 10px;
+    background-size: auto !important;
+}
+
+.classic-theme .blocklyTreeRow.blocklyTreeSelected .blocklyTreeIcon.blocklyTreeIconOpen {
+    background-image: url('../../common/media/sprites.png') !important;
+    background-position: -16px -17px !important;
+}
+
+.classic-theme .blocklyTreeRow.blocklyTreeSelected .blocklyTreeIcon.blocklyTreeIconClosed {
+    background-image: url('../../common/media/sprites.png') !important;
+    background-position: -32px -17px !important;
+}
+
+.classic-theme .blocklyTreeRow .blocklyTreeIcon.blocklyTreeIconOpen {
+    background-image: url('../../common/media/sprites.png') !important;
+    background-position: -16px -1px !important;
+}
+
+.classic-theme .blocklyTreeRow .blocklyTreeIcon.blocklyTreeIconClosed {
+    background-image: url('../../common/media/sprites.png') !important;
+    background-position: -32px -1px !important;
+}
+
+.dark-theme .blocklyTreeRow .blocklyTreeIcon.blocklyTreeIconOpen {
+    background-image: url('../../common/media/sprites.png') !important;
+    background-position: -16px -17px !important;
+}
+
+.dark-theme .blocklyTreeRow .blocklyTreeIcon.blocklyTreeIconClosed {
+    background-image: url('../../common/media/sprites.png') !important;
+    background-position: -32px -17px !important;
+}
+
+.dark-theme .blocklyTreeRow.blocklyTreeSelected .blocklyTreeIcon.blocklyTreeIconOpen {
+    background-image: url('../../common/media/sprites.png') !important;
+    background-position: -16px -1px !important;
+}
+
+.dark-theme .blocklyTreeRow.blocklyTreeSelected .blocklyTreeIcon.blocklyTreeIconClosed {
+    background-image: url('../../common/media/sprites.png') !important;
+    background-position: -32px -1px !important;
+}
+
+.blocklyDropDownDiv.dark-theme,
+.blocklyWidgetDiv.dark-theme .blocklyMenu {
+    border-color: #000000;
+    background-color: #353535;
+}
+
+.dark-theme .blocklyMenu > .blocklyMenuItem {
+    color: #fff;
+}
+
+.dark-theme .blocklyMenu > .blocklyMenuItemDisabled {
+    color: #919191;
+}
+
+.dark-theme .blocklyMenu > .blocklyMenuItemHighlight {
+    background-color: rgba(255, 255, 255, 0.1);
+}

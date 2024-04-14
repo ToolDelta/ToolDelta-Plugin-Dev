@@ -1,0 +1,126 @@
+<style type="text/css">
+    /* 板卡配置 */
+    .footer-layer-board-config button {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    html[data-bs-theme=light] .footer-layer-board-config button.option {
+        background-color: #009688;
+    }
+
+    html[data-bs-theme=dark] .footer-layer-board-config button.option {
+        background-color: #007ACC;
+    }
+
+    html[data-bs-theme=light] .footer-layer-board-config button.title {
+        background-color: #ffffff;
+        border: 1px #fff;
+        color: #000;
+        font-size: 14px;
+    }
+
+    html[data-bs-theme=light] .footer-layer-board-config button.title:hover {
+        color: #a5a5a5;
+    }
+
+    html[data-bs-theme=dark] .footer-layer-board-config button.title {
+        background-color: #353535;
+        border: 1px #353535;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    html[data-bs-theme=dark] .footer-layer-board-config button.title:hover {
+        color: var(--lay-color-text-2);
+    }
+
+    .footer-layer-board-config .footer-layer-btn.reset {
+        font-size: 14px;
+        line-height: 13px;
+    }
+
+    html[data-bs-theme=dark] .board-config-menu, html[data-bs-theme=dark] .board-config-menu > ul {
+        background-color: #252526 !important;
+    }
+
+    .board-config-menu > .layui-dropdown-menu {
+        max-height: 150px;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    html[data-bs-theme=light] .board-config-menu li.selected, html[data-bs-theme=light] .board-config-menu li.selected:hover {
+        background-color: #0bc1af;
+    }
+
+    html[data-bs-theme=dark] .board-config-menu li.selected, html[data-bs-theme=dark] .board-config-menu li.selected:hover {
+        background-color: #005994;
+    }
+</style>
+<div
+    style="
+        display: flex;
+        flex-direction: column;
+    "
+>
+    {{# layui.each(d.options, function(index, item){ }}
+    <button
+        mid="{{ item.key }}-label"
+        class="
+            layui-btn
+            layui-btn-fluid
+            layui-btn-xs
+            title
+        "
+        style="
+            white-space: nowrap;
+            margin: 2px 0px;
+            padding: 0px;
+        "
+    >
+        <p style="width: 100%; text-align: right;">{{ item.name }}</p>
+    </button>
+    {{# }); }}
+</div>
+<div
+    style="
+        display: flex;
+        flex-direction: column;
+    "
+>
+    {{# layui.each(d.options, function(index, item){ }}
+    <p
+        style="
+            white-space: nowrap;
+            text-align: center;
+            margin: 3.2px 0px;
+        "
+    >
+        &nbsp:&nbsp
+    </p>
+    {{# }); }}
+</div>
+<div
+    style="
+        display: flex;
+        flex-direction: column;
+    "
+>
+    {{# layui.each(d.options, function(index, item){ }}
+    <button
+        mid="{{ item.key }}"
+        class="
+            layui-btn
+            layui-btn-fluid
+            layui-btn-xs
+            option
+        "
+        style="margin: 2px 0px;"
+    >
+        <p style="font-size: 13px;">{{ item.label }}</p>
+        <i class="layui-icon layui-icon-triangle-d"></i>
+    </button>
+    {{# }); }}
+</div>
