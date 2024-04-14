@@ -159,12 +159,13 @@ console.log(load);
 
 // 压缩 js 文件
 // 在命令行使用 gulp script 启动此任务
-gulp.task('script', function() {
+gulp.task('script', function(done) {
     // 1. 找到文件
     gulp.src(load)
         .pipe(concat('mixly.js'))
         // .pipe(gulp.dest('./common/modules/mixly-modules/'))
-        .pipe(rename({suffix: '.min'}))
-        .pipe(uglify({mangle:true}))
-        .pipe(gulp.dest('./common/modules/mixly-modules/'));
+        .pipe(rename({ suffix: '.min' }))
+        .pipe(uglify({ mangle: true }))
+        .pipe(gulp.dest('./common/modules/mixly-modules/'))
+        .on('end', done);
 })
