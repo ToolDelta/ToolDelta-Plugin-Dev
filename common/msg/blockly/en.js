@@ -55,7 +55,7 @@ En.MSG = {
     catEthernet_clinet: "Client",
     tab_blocks: "Blocks",
     tab_arduino: "Code",
-    copyright: "Copyright © Mixly Team@BNU, CHINA",
+    copyright: "Copyright © Mixly-ToolDelta@ToolDelta, CHINA",
     catGame: "Game",
     catSystem: "System",
     catTurtle: "Turtle",

@@ -51,7 +51,7 @@ ZhHant.MSG = {
     catEthernet_clinet: "用戶端",
     tab_blocks: "模組",
     tab_arduino: "代碼",
-    copyright: "Copyright © Mixly Team@BNU, CHINA",
+    copyright: "Copyright © Mixly-ToolDelta@ToolDelta, CHINA",
     catGame: "遊戲",
     catSystem: "系統",
     catTurtle: "Turtle畫圖",

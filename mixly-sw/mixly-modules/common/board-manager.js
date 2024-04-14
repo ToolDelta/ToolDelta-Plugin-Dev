@@ -1189,7 +1189,7 @@ BoardManager.showBoardsCard = (row, col) => {
         footerDom.append(
             `<div class="container" style="text-align:center;">
                 <hr>
-                <p>Copyright © Mixly Team@BNU, CHINA</p>
+                <p>Copyright © Mixly-ToolDelta@ToolDelta, CHINA</p>
             </div>`
         );
     }
