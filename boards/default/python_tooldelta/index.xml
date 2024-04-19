@@ -18,6 +18,7 @@
 <script src="../python/blocks/logic.js"></script>
 <script src="../python/blocks/set.js"></script>
 <script src="./blocks/turtle.js"></script>
+<script src="./blocks/tooldelta.js"></script>
 <script src="./blocks/data.js"></script>
 <script src="./blocks/iot.js"></script>
 <script src="../python/blocks/tuple.js"></script>
@@ -37,6 +38,7 @@
 <script src="./generators/turtle.js"></script>
 <script src="./generators/data.js"></script>
 <script src="./generators/iot.js"></script>
+<script src="./generators/tooldelta.js"></script>
 <script src="../python/generators/tuple.js"></script>
 <script src="../python/generators/procedures.js"></script>
 <script src="../python_mixpy/generators/algorithm.js"></script>
@@ -47,6 +49,7 @@
 <script src="./converters/py2block_config.js" type="application/javascript"></script>
 <script src="./converters/inout.js" type="application/javascript"></script>
 <script src="./converters/system.js" type="application/javascript"></script>
+<script src="./converters/tooldelta.js" type="application/javascript"></script>
 <script src="../python/converters/control.js" type="application/javascript"></script>
 <script src="../python/converters/math.js" type="application/javascript"></script>
 <script src="../python/converters/logic.js" type="application/javascript"></script>
@@ -2704,4 +2707,22 @@
     </category>
   </category>
   -->
+  <category id="tooldelta" colour="230">
+    <category id="tooldelta_class_p" colour="230">
+      <block type="tooldelta_frame"></block>
+      <block type="tooldelta_frame_class_import"></block>
+      <block type="tooldelta_frame_class_inbuilt_lib_import"></block>
+      <block type="tooldelta_frame_import_lib"></block>
+      <block type="tooldelta_frame_class_add_plugin"></block>
+      <block type="tooldelta_frame_class_class_frame"></block>
+    </category>  
+    <category id="tooldelta_injected_p" colour="230">
+      <block type="tooldelta_frame"></block>
+    </category>  
+    <category id="tooldelta_inbuilt_lib" colour="230">
+    </category>  
+    <category id="tooldelta_inbuilt_func" colour="280">
+      <block type="tooldelta_frame_create_variable"></block>
+    </category>  
+  </category>  
 </xml>

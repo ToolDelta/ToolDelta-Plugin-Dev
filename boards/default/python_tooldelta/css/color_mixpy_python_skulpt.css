@@ -141,3 +141,17 @@ div.blocklyToolboxDiv > div.blocklyToolboxContents > div:nth-child(15) > div:nth
   background:url('../../../../common/media/mark/algorithm2.png') no-repeat;
   background-size: 100% auto; 
 }
+
+div.blocklyToolboxDiv > div.blocklyToolboxContents > div:nth-child(16) > div.blocklyTreeRow.blocklyTreeSelected > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon{
+  background:url('../../../../common/media/mark/tooldelta.ico') no-repeat;
+  background-size: 100% auto; 
+}
+div.blocklyToolboxDiv > div.blocklyToolboxContents > div:nth-child(16) > div.blocklyTreeRow > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon{
+  background:url('../../../../common/media/mark/tooldelta.ico') no-repeat;
+  background-size: 100% auto; 
+}
+div.blocklyToolboxDiv > div.blocklyToolboxContents > div:nth-child(16) > div:nth-child(2) > div > div.blocklyTreeRow > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon{
+  background:url('../../../../common/media/mark/tooldelta_plugin.png') no-repeat;
+  background-size: 100% auto; 
+}
+

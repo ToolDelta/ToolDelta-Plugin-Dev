@@ -204,3 +204,4 @@ Blockly.Blocks['inout_print_item'] = {
     this.contextMenu = false;
   }
 };
+
